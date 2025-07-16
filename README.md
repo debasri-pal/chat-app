@@ -52,59 +52,50 @@ Edit
 
 ---
 
-## 📦 Installation & Running Locally
+# Chat App
 
-### 1. Clone the Repository
+A simple real-time chat application where users can join specific rooms and exchange messages instantly. Built using React for the frontend and Node.js with Socket.IO for the backend.
+
+---
+
+## Features
+
+- Join chat rooms by name
+- Real-time messaging
+- Message broadcasting to all users in the same room
+- Responsive and minimal UI
+
+---
+
+## Tech Stack
+
+- Frontend: React, CSS
+- Backend: Node.js, Express, Socket.IO
+
+---
+
+## Run Locally
+
+### Backend
 
 ```bash
-git clone https://github.com/debasri-pal/chat-app.git
-cd chat-app
-2. Start the Backend (Terminal 1)
-bash
-Copy
-Edit
 cd server
 npm install
 npm start
-It will run on http://localhost:5000
-
-3. Start the Frontend (Terminal 2)
+Frontend
 bash
 Copy
 Edit
 cd client
 npm install
 npm start
-It will open http://localhost:3000
+Usage
+Open the app in your browser at http://localhost:3000
 
-🧪 Usage
-Open: http://localhost:3000
+Enter your name and room name
 
-Enter your name and room ID
+Start chatting with others who join the same room
 
-Click Join
-
-Open another tab with a different name but same room ID
-
-Chat in real-time!
-
-🧑‍💻 Author
+Author
 Debasri Pal
-📧 debasripal.dev@gmail.com
-🌐 GitHub
-
-📝 License
-This project is open-source and available under the MIT License.
-
-yaml
-Copy
-Edit
-
----
-
-Let me know if you'd like me to:
-- Add badges (GitHub stars, forks, license, etc.)
-- Add screenshots
-- Help with deployment to **Render** (backend) + **Netlify/Vercel** (frontend)
-
-Once you're ready, just create a new file in your repo named `README.md` and paste the above content. ✅
+GitHub Profile
